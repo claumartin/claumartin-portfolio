@@ -1,4 +1,16 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+@theme {
+  --color-sky-purple: #5bdce1;
+  --color-dark-purple: #201139;
+  --color-isabelline: #f5f5ef;
+  --color-deep-lilac: #8454c4;
+  --color-american-silver: #c9cdd3;
+  --color-banana-yellow: #ffeb3a;
+  --color-blue-jeans: #5cace6;
+  --color-sea-serpent: #52babe;
+  --color-dark-pastel-purple: #9e6cde;
+}
 
 #root {
   max-width: 1280px;
