@@ -7,7 +7,8 @@ A responsive, accessible web app to showcase selected projects, tech stack, and 
 - React 19.1.0
 - TypeScript 5.8.3
 - Vite 6.3.5
-- ESLint: 9.25.0
+- ESLint 9.25.0
+- TailwindCSS 4.1.10
 
 ## Local installation steps
 

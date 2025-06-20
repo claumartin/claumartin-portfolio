@@ -4,9 +4,15 @@ function App() {
 
   return (
     <>
-      <h2>Hey! I'm Claudia ☀</h2>
-      <h1>Welcome to my portfolio!</h1>
-      <p>🚧 It's under construction 🚧</p>
+      <div className="flex flex-col gap-6">
+        <p className='text-2xl'>Hey! I'm Claudia ☀</p>
+        <h1 className='font-title text-6xl'>Welcome to my portfolio!</h1>
+        <p className='text-xl text-deep-lilac flex justify-center align-center'>
+          <span>🚧</span> 
+          <span className='mx-2 w-max'>It's under construction</span>
+          <span>🚧</span>
+        </p>
+      </div>
     </>
   )
 }
