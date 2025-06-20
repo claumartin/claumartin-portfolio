@@ -18,3 +18,9 @@ npm install
 ```npm
 npm run dev
 ```
+
+## Deploy steps
+
+1. Ensure you have committed and pushed your changes.
+2. Execute ``npm run deploy`` on the terminal.
+3. Visit [Production URL](https://claumartin.github.io/claumartin-portfolio/).
