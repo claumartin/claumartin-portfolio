@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+
+@font-face {
+    font-family: "SourceCodePro";
+    src: url("../public/fonts/source-code-pro/SourceCodePro-VariableFont_wght.ttf") format('truetype');
+}
+@font-face {
+    font-family: "Jersey 10";
+    src: url("../public/fonts/jersey-10/Jersey10-Regular.ttf") format('truetype');
+}
+
 @theme {
   --color-sky-purple: #5bdce1;
   --color-dark-purple: #201139;
@@ -10,6 +20,8 @@
   --color-blue-jeans: #5cace6;
   --color-sea-serpent: #52babe;
   --color-dark-pastel-purple: #9e6cde;
+  --font-base: "SourceCodePro", sans-serif;
+  --font-title: "Jersey 10", sans-serif;
 }
 
 #root {
@@ -17,6 +29,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: var(--font-base);
 }
 
 .logo {
