@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 @font-face {
     font-family: "SourceCodePro";
     src: url("../public/fonts/source-code-pro/SourceCodePro-VariableFont_wght.ttf") format('truetype');
@@ -22,14 +21,6 @@
   --color-dark-pastel-purple: #9e6cde;
   --font-base: "SourceCodePro", sans-serif;
   --font-title: "Jersey 10", sans-serif;
-}
-
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  font-family: var(--font-base);
 }
 
 .logo {
