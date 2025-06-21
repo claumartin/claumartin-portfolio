@@ -4,7 +4,7 @@ import { BiLogoLinkedin } from "react-icons/bi";
 
 export const CallToAction: React.FC = () => {
   return (
-    <div className="bg-dark-purple w-full flex justify-center items-center gap-12 p-8 sm:flex-row-reverse flex-wrap">
+    <div className="bg-dark-purple w-full flex justify-center items-center gap-4 md:gap-12 p-8 sm:flex-row-reverse flex-wrap">
       <img 
         alt="claudia profile photo" 
         src={`${import.meta.env.BASE_URL}/images/claumartin.png`}
@@ -15,7 +15,7 @@ export const CallToAction: React.FC = () => {
         <h1 className="font-title text-6xl text-center">Frontend Developer</h1>
         <p className="italic">Welcome!</p>
         <p className="italic">See my work, let's connect :)</p>
-        <div className="flex gap-2">
+        <div className="flex gap-2 mt-2">
           <SocialButton
             href="https://github.com/claumartin"
             title="Go to claumartin GitHub profile"
