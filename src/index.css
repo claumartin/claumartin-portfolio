@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "SourceCodePro";
-    src: url("../public/fonts/source-code-pro/SourceCodePro-VariableFont_wght.ttf") format('truetype');
+    src: url("/fonts/source-code-pro/SourceCodePro-VariableFont_wght.ttf") format('truetype');
 }
 @font-face {
     font-family: "Jersey 10";
-    src: url("../public/fonts/jersey-10/Jersey10-Regular.ttf") format('truetype');
+    src: url("/fonts/jersey-10/Jersey10-Regular.ttf") format('truetype');
 }
 
 @theme {
@@ -25,5 +25,4 @@
 
 html, body {
   margin: 0;
-  overflow: hidden;
 }
