@@ -2,14 +2,16 @@
 
 @font-face {
     font-family: "SourceCodePro";
-    src: url("../public/fonts/source-code-pro/SourceCodePro-VariableFont_wght.ttf") format('truetype');
+    src: url("/fonts/source-code-pro/SourceCodePro-VariableFont_wght.ttf") format('truetype');
 }
 @font-face {
     font-family: "Jersey 10";
-    src: url("../public/fonts/jersey-10/Jersey10-Regular.ttf") format('truetype');
+    src: url("/fonts/jersey-10/Jersey10-Regular.ttf") format('truetype');
 }
 
 @theme {
+
+  /* Colors */
   --color-sky-purple: #5bdce1;
   --color-dark-purple: #201139;
   --color-isabelline: #f5f5ef;
@@ -19,11 +21,15 @@
   --color-blue-jeans: #5cace6;
   --color-sea-serpent: #52babe;
   --color-dark-pastel-purple: #9e6cde;
+
+  /* Fonts */
   --font-base: "SourceCodePro", sans-serif;
   --font-title: "Jersey 10", sans-serif;
+
+  /* Breakpoints */
+  --breakpoint-xs: 360px;
 }
 
 html, body {
   margin: 0;
-  overflow: hidden;
 }
