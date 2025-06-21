@@ -10,6 +10,8 @@
 }
 
 @theme {
+
+  /* Colors */
   --color-sky-purple: #5bdce1;
   --color-dark-purple: #201139;
   --color-isabelline: #f5f5ef;
@@ -19,8 +21,13 @@
   --color-blue-jeans: #5cace6;
   --color-sea-serpent: #52babe;
   --color-dark-pastel-purple: #9e6cde;
+
+  /* Fonts */
   --font-base: "SourceCodePro", sans-serif;
   --font-title: "Jersey 10", sans-serif;
+
+  /* Breakpoints */
+  --breakpoint-xs: 360px;
 }
 
 html, body {
