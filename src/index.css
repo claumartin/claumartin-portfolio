@@ -22,6 +22,19 @@
   --color-sea-serpent: #52babe;
   --color-dark-pastel-purple: #9e6cde;
 
+  --color-typescript: #3178C6;
+  --color-javascript: #F7DF1E;
+  --color-react: #61DAFB;
+  --color-html: #E34F26;
+  --color-css: #1572B6;
+  --color-tailwindcss: #38BDF8;
+  --color-jest: #C63D14;
+  --color-react-testing-library: #E33332;
+  --color-git: #F05032;
+  --color-webpack: #8DD6F9;
+  --color-eslint: #4B32C3;
+  --color-prettier: #F7B93E;
+
   /* Fonts */
   --font-base: "SourceCodePro", sans-serif;
   --font-title: "Jersey 10", sans-serif;
