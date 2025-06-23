@@ -1,48 +1,51 @@
 import { BiLogoCss3, BiLogoGit, BiLogoHtml5, BiLogoJavascript, BiLogoReact, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
 import { SiEslint, SiJest, SiPrettier, SiTestinglibrary, SiWebpack } from "react-icons/si";
-import { TechIcon } from "./tech-icon";
+import { Technology } from "./technology";
 
 export const TechStack: React.FC = () => {
   return (
-    <div className="bg-dark-pastel-purple w-full flex flex-col justify-center items-center gap-4 p-8">
+    <div className="w-full flex flex-col justify-center items-center gap-4">
       <h2 className="font-title text-center text-3xl">Go-to Tech Stack</h2>
-      <div className="flex gap-4 flex-wrap justify-center">
-        <TechIcon>
+      <div className="grid sm:grid-cols-2 sm:grid-rows-6 lg:grid-cols-3 lg:grid-rows-4 xl:grid-cols-4 xl:grid-rows-4 gap-3 flex-wrap justify-center">
+        <Technology name="TypeScript">
           <BiLogoTypescript className="text-typescript"/>
-        </TechIcon>
-        <TechIcon>
+        </Technology>
+        <Technology name="JavaScript">
           <BiLogoJavascript className="text-javascript" />
-        </TechIcon>
-        <TechIcon>
+        </Technology>
+        <Technology name="React">
           <BiLogoReact className="text-react" />
-        </TechIcon>
-        <TechIcon>
+        </Technology>
+        <Technology name="HTML5">
           <BiLogoHtml5 className="text-html"/>
-        </TechIcon>
-        <TechIcon>
+        </Technology>
+        <Technology name="CSS3">
           <BiLogoCss3 className="text-css"/>
-        </TechIcon>
-        <TechIcon>
+        </Technology>
+        <Technology name="Tailwind CSS">
           <BiLogoTailwindCss className="text-tailwindcss" />
-        </TechIcon>
-        <TechIcon>
+        </Technology>
+        <Technology name="Jest">
           <SiJest className="text-jest" />
-        </TechIcon>
-        <TechIcon>
+        </Technology>
+        <Technology name="React Testing Library">
           <SiTestinglibrary className="text-react-testing-library" />
-        </TechIcon>
-        <TechIcon>
+        </Technology>
+        <Technology name="Git">
           <BiLogoGit className="text-git" />
-        </TechIcon>
-        <TechIcon>
+        </Technology>
+        <Technology name="Webpack">
           <SiWebpack className="text-webpack" />
-        </TechIcon>
-        <TechIcon>
+        </Technology>
+        <Technology name="ESLint">
           <SiEslint className="text-eslint" />
-        </TechIcon>
-        <TechIcon>
+        </Technology>
+        <Technology name="Prettier">
           <SiPrettier className="text-prettier" />
-        </TechIcon>
+        </Technology>
+        <div className="col-span-full flex justify-center items-end">
+        <span>...</span>
+        </div>
       </div>
     </div>
   );
