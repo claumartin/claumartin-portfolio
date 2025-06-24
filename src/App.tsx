@@ -11,7 +11,7 @@ function App() {
       <CallToAction />
       <BriefPresentation />
       <TechStack />
-      <div className="flex items-start justify-center w-full md:w-fit flex-wrap md:flex-nowrap">
+      <div className="flex items-start justify-center xl:gap-60 w-full flex-wrap md:flex-nowrap">
         <SoftSkills />
         <OtherFacts />
       </div>

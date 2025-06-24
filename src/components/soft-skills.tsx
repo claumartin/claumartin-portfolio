@@ -8,10 +8,10 @@ const softSkills: string[] = [
 
 export const SoftSkills: React.FC = () => {
   return( 
-  <div className="flex flex-col justify-center items-center gap-4 px-8">
+  <div className="flex flex-col w-fit justify-center items-center gap-4 px-8">
       <h2 className="font-title text-center text-3xl capitalize">Soft skills</h2>
       <ul className="flex flex-col gap-2 items-center text-center sm:items-start sm:text-start">
-        {softSkills && softSkills.map((softSkill, index) => <li key={`soft-skill-${index}`} className="text-nowrap">{softSkill}</li>)}
+        {softSkills && softSkills.map((softSkill, index) => <li key={`soft-skill-${index}`} className="md:text-nowrap">{softSkill}</li>)}
       </ul>
   </div>
   );
