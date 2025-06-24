@@ -1,5 +1,6 @@
-import { BriefPresentation } from "./components/brief-presentatio";
+import { BriefPresentation } from "./components/brief-presentation";
 import { CallToAction } from "./components/call-to-action";
+import { SoftSkills } from "./components/soft-skills";
 import { TechStack } from "./components/tech-stack";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <CallToAction />
       <BriefPresentation />
       <TechStack />
+      <SoftSkills />
     </div>
   )
 }

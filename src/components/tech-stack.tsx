@@ -5,7 +5,7 @@ import { Technology } from "./technology";
 export const TechStack: React.FC = () => {
   return (
     <div className="w-full flex flex-col justify-center items-center gap-4">
-      <h2 className="font-title text-center text-3xl">Go-to Tech Stack</h2>
+      <h2 className="font-title text-center text-3xl  capitalize">Go-to tech stack</h2>
       <div className="grid sm:grid-cols-2 sm:grid-rows-6 lg:grid-cols-3 lg:grid-rows-4 xl:grid-cols-4 xl:grid-rows-4 gap-3 flex-wrap justify-center">
         <Technology name="TypeScript">
           <BiLogoTypescript className="text-typescript"/>
