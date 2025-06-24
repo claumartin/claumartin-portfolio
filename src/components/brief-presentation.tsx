@@ -1,7 +1,7 @@
 export const BriefPresentation: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-4 max-w-4xl px-8">
-      <h2 className="font-title text-center text-3xl">Brief presentation</h2>
+      <h2 className="font-title text-center text-3xl capitalize">Brief presentation</h2>
       <p className="text-center">
         With more than 4 years of professional experience, I've worked with a 
         variety of technologies, and I've been specializing more and more in the 
