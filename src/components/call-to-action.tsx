@@ -1,6 +1,7 @@
 import { FiGithub } from "react-icons/fi";
 import { SocialButton } from "./social-button";
 import { BiLogoLinkedin } from "react-icons/bi";
+import { DownloadPDF } from "./download-cv";
 
 export const CallToAction: React.FC = () => {
   return (
@@ -33,6 +34,7 @@ export const CallToAction: React.FC = () => {
             <BiLogoLinkedin />
           </SocialButton>
         </div>
+        <DownloadPDF />
       </div>
     </div>
   );
