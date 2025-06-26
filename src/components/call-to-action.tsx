@@ -2,10 +2,11 @@ import { FiGithub } from "react-icons/fi";
 import { SocialButton } from "./social-button";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { DownloadPDF } from "./download-cv";
+import { CopyEmail } from "./copyEmail";
 
 export const CallToAction: React.FC = () => {
   return (
-    <div className="w-full flex justify-center items-center gap-4 md:gap-12 p-8 sm:flex-row-reverse flex-wrap">
+    <div className="w-full flex justify-center items-center gap-4 md:gap-12 xl:gap-14 px-8 sm:flex-row-reverse flex-wrap">
       <div className="rounded-full border-2 p-1 border-dashed">
         <img 
           alt="claudia profile photo" 
@@ -35,6 +36,7 @@ export const CallToAction: React.FC = () => {
           </SocialButton>
         </div>
         <DownloadPDF />
+        <CopyEmail />
       </div>
     </div>
   );
