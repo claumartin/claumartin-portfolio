@@ -7,7 +7,7 @@ import { TechStack } from "./components/tech-stack";
 function App() {
 
   return (
-    <div className="flex flex-col items-center gap-6 w-full">
+    <div className="flex flex-col items-center gap-6 w-full py-8">
       <CallToAction />
       <BriefPresentation />
       <TechStack />
