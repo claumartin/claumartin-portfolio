@@ -6,12 +6,12 @@ import { CopyEmail } from "./copyEmail";
 
 export const CallToAction: React.FC = () => {
   return (
-    <div className="w-full flex justify-center items-center gap-4 md:gap-12 xl:gap-14 px-8 sm:flex-row-reverse flex-wrap">
+    <div className="w-full flex justify-center items-center gap-4 md:gap-8 xl:gap-60 px-8 sm:flex-row-reverse flex-wrap">
       <div className="rounded-full border-2 p-1 border-dashed">
         <img 
           alt="claudia profile photo" 
           src={`${import.meta.env.BASE_URL}/images/claumartin.png`}
-          className="rounded-full border-2 size-full sm:size-80 lg:size-80 object-cover"
+          className="rounded-full border-2 size-full sm:size-80 lg:size-80 xl:size-72 object-cover"
           />
       </div>
       <div className="flex flex-col items-center lg:items-start gap-2">
