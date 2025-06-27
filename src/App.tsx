@@ -4,6 +4,7 @@ import { OtherFacts } from "./components/other-facts";
 import { SoftSkills } from "./components/soft-skills";
 import { TechStack } from "./components/tech-stack";
 
+
 function App() {
 
   return (
