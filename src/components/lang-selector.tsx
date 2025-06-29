@@ -11,11 +11,11 @@ export const LangSelector: React.FC = () => {
     }
 
   return (
-    <ul className="flex flex-nowrap justify-end w-full pt-1 px-1">
+    <ul className="flex flex-nowrap justify-end w-full pt-1 px-1 mb-[-1rem]">
       {languages.map((language: string) => <li 
           key={language}>
         <button 
-          className={`uppercase cursor-pointer p-1 border-2 hover:scale-105 transition-transform ${i18n.language === language ? 'bg-gray-300' : ''}`}
+          className={`uppercase cursor-pointer p-1 border-2 min-w-12 hover:scale-105 transition-transform ${i18n.language === language ? 'bg-gray-300' : ''}`}
           onClick={() => void handleChange(language)}
           type="button"
         >
