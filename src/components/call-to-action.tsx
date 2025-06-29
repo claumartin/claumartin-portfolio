@@ -21,7 +21,7 @@ export const CallToAction: React.FC = () => {
         <p className="text-2xl">Claudia Martín</p>
         <h1 className="font-title text-6xl text-center">Frontend Developer</h1>
         <p className="italic">{t('welcome')}</p>
-        <p className="italic">See my work, let's connect :)</p>
+        <p className="italic">{t('cta')}</p>
         <div className="flex gap-2 mt-2">
           <SocialButton
             href="https://github.com/claumartin"

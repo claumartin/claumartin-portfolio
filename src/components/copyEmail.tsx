@@ -1,18 +1,20 @@
 import { BiCopy } from "react-icons/bi";
 import { EMAIL } from "../constants";
 import { useCopyToClipboard } from "../hooks/CopyToClipboard";
+import { useTranslation } from "react-i18next";
 
 export const CopyEmail: React.FC = () => {
 
   const [copiedText, copy] = useCopyToClipboard();
+  const { t } = useTranslation();
 
   const handleCopy = (text: string) => {
     copy(text)
       .then(() => {
-        console.log('Copied!', {copiedText});
+        console.log(t('copy.success'), {copiedText});
       })
       .catch((error: string) => {
-        console.log('Failed to copy!', error);
+        console.log(t('copy.failed'), error);
       })
   }
 
