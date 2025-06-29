@@ -11,7 +11,7 @@ export const BriefPresentation: React.FC = () => {
         {t('presentation.part_1')}
       </p>
       <p className="text-center">
-        {t('presentation.part_1')}
+        {t('presentation.part_2')}
       </p>
     </div>
   );
