@@ -1,11 +1,14 @@
+import { useTranslation } from "react-i18next";
+
 export const OtherFacts: React.FC = () => {
+  const {t} = useTranslation();
   return (
   <div className="w-fit flex flex-col justify-center items-center gap-4 px-8 mt-6 md:mt-0">
-      <h2 className="font-title text-center text-3xl capitalize">A bit about me</h2>
+      <h2 className="font-title text-center text-3xl capitalize">{t('about_me.title')}</h2>
       <ul className="flex flex-col gap-2 items-start text-start list-disc">
-        <li>I read <span className="italic">Mistborn</span>, by Sanderson</li>
-        <li>I'm a Krav-Maga instructor</li>
-        <li>I love board games</li>
+        <li>{t('about_me.fact_1.part_1')} <em>{t('about_me.fact_1.part_2')}</em>{t('about_me.fact_1.part_3')}</li>
+        <li>{t('about_me.fact_2')}</li>
+        <li>{t('about_me.fact_3')}</li>
       </ul>
   </div>
   );
