@@ -1,5 +1,38 @@
 {
   "translation": {
-    "welcome": "¡Hola!"
+    "welcome": "¡Hola!",
+    "cta": "Echa un vistazo a mi trabajo :)",
+    "download_cv": "Descargar CV",
+    "copy": {
+      "success": "¡Copiado!",
+      "failed": "Error al copiar"
+    },
+    "presentation": {
+      "title": "Breve presentación",
+      "part_1": "Con más de 4 años de experiencia profesional, he trabajado con gran variedad de tecnologías, y me he ido especializando cada vez más en el área frontend, principalmente con React, TypeScript, JavaScript, Tailwind y Jest.",
+      "part_2": "Actualmente dedico tiempo a actualizarme con nuevas herramientas, buenas prácticas, testing moderno, y a crear proyectos propios para recuperar fluidez y explorar nuevas formas de transformar diseños en aplicaciones eficientes, accesibles y con buen gusto, escribiendo código más legible, mantenible y robusto."
+    },
+    "tech_stack": {
+      "title": "Principales tecnologías"
+    },
+    "soft_skills": {
+      "title": "Soft skills",
+      "content": [
+      "🧠 Pensamiento analítico y neurodivergente",
+      "🚀 Proactividad y ganas de aprender",
+      "🤝🏻 Comunicación efectiva y clara",
+      "🔁 Resiliencia y adaptabilidad",
+      "⚡ Agilidad y respuesta rápida"
+    ]},
+    "about_me": {
+      "title": "Un poco sobre mí",
+      "fact_1": {
+        "part_1": "He leído ",
+        "part_2": "Mistborn",
+        "part_3": ", de Brandon Sanderson"
+      },
+      "fact_2": "Soy instructora de Krav-Magá",
+      "fact_3": "Me encantan los juegos de mesa"
+    }
   }
 }
