@@ -2,7 +2,10 @@
   "translation": {
     "welcome": "Welcome!",
     "cta": "See my work, let's connect :)",
-    "download_cv": "Download CV",
+    "download_cv": {
+      "title": "Download CV",
+      "file_url": "{{- baseURL}}Claudia Martín EN.pdf"
+    },
     "copy": {
       "success": "Copied!",
       "failed": "Failed to copy!"
