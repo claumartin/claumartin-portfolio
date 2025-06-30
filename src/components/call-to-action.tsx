@@ -14,7 +14,7 @@ export const CallToAction: React.FC = () => {
         <img 
           alt="claudia profile photo" 
           src={`${import.meta.env.BASE_URL}/images/claumartin.png`}
-          className="rounded-full border-2 size-full sm:size-80 lg:size-80 xl:size-72 object-cover"
+          className="rounded-full border-2 size-full sm:size-80 lg:size-80 xl:size-72 object-cover dark:brightness-90"
           />
       </div>
       <div className="flex flex-col items-center lg:items-start gap-2">

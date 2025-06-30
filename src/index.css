@@ -9,11 +9,15 @@
     src: url("/fonts/jersey-10/Jersey10-Regular.ttf") format('truetype');
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
 
   /* Colors */
   --color-sky-purple: #5bdce1;
   --color-dark-purple: #201139;
+  --color-faded-purple: #8778a2;
+  --color-ebony: #120a20;
   --color-isabelline: #f5f5ef;
   --color-deep-lilac: #8454c4;
   --color-american-silver: #c9cdd3;
