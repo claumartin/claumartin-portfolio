@@ -4,7 +4,7 @@
     "cta": "See my work, let's connect :)",
     "download_cv": {
       "title": "Download CV",
-      "filename": "{{- baseURL}}Claudia Martín EN.pdf"
+      "file_url": "{{- baseURL}}Claudia Martín EN.pdf"
     },
     "copy": {
       "success": "Copied!",

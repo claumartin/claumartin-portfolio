@@ -8,9 +8,9 @@ export const DownloadPDF: React.FC = () => {
 
   return (
     <a 
-      href={t('download_cv.filename', {baseURL})} 
-      download={t('download_cv.filename', {baseURL: ''})}
+      href={t('download_cv.file_url', {baseURL})} 
       className="flex gap-2 flex-nowrap items-center text-dark-pastel-purple underline"
+      download
     >
       <BiDownload />
       {t('download_cv.title')}
