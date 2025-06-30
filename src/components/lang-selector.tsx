@@ -15,7 +15,7 @@ export const LangSelector: React.FC = () => {
       {languages.map((language: string) => <li 
           key={language}>
         <button 
-          className={`uppercase p-1 border-2 min-w-12 ${i18n.language === language ? 'bg-gray-300 dark:opacity-50 dark:text-black' : 'hover:scale-105 transition-transform cursor-pointer'}`}
+          className={`uppercase p-1 border-2 border-ebony dark:border-isabelline min-w-12 ${i18n.language === language ? 'bg-gray-300 dark:bg-faded-purple dark:text-black' : 'hover:scale-105 transition-transform cursor-pointer'}`}
           onClick={() => void handleChange(language)}
           type="button"
         >

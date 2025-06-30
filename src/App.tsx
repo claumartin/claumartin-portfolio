@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center gap-6 w-full py-2 dark:bg-ebony dark:text-isabelline">
-      <div className="flex flex-nowrap justify-end gap-3 w-full px-3 mb-[-1rem]">
+      <div className="flex flex-nowrap justify-center xs:justify-end gap-3 w-full px-3 mb-[-1rem]">
         <LangSelector />
         <DarkToggle />
       </div>
