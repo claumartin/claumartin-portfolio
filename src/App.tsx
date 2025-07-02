@@ -3,6 +3,7 @@ import { CallToAction } from "./components/call-to-action";
 import { DarkToggle } from "./components/dark-toggle";
 import { LangSelector } from "./components/lang-selector";
 import { OtherFacts } from "./components/other-facts";
+import { CompanyProjects } from "./components/company-projects";
 import { SoftSkills } from "./components/soft-skills";
 import { TechStack } from "./components/tech-stack";
 
@@ -18,6 +19,7 @@ function App() {
       <CallToAction />
       <BriefPresentation />
       <TechStack />
+      <CompanyProjects />
       <div className="flex items-start justify-center xl:gap-60 w-full flex-wrap md:flex-nowrap">
         <SoftSkills />
         <OtherFacts />
